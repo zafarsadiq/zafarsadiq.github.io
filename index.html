@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer & Data Analyst</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
+            color: #333;
+            text-align: center;
+        }
+        .profile {
+            max-width: 500px;
+            padding: 20px;
+            /*background: rgba(161, 196, 253, 0.8);*/
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #90caf9;
+            margin-bottom: 20px;
+        }
+        .profile h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .profile p {
+            margin: 10px 0 0;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+        body:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('coding-background.png') center/cover no-repeat;
+            opacity: 0.1;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="your-photo.jpg" alt="Your Photo">
+        <h1>Zafar Sadiq</h1>
+        <p>
+            I am a passionate web developer and data analyst. I specialize in creating seamless user experiences, building robust web applications, and deriving meaningful insights from data.
+        </p>
+    </div>
+</body>
+</html>
